@@ -1,28 +1,22 @@
-# Smart City Traffic Management 
+# Smart City Traffic Management System 🚦
 
-This project is a simulation for Smart City Traffic Management implemented in C++ as part of the Data Structures course.
+A high-performance C++ simulation for optimizing traffic flow in a smart city using custom-built data structures and graph algorithms.
 
-### Project Description
-The system simulates traffic flow using a graph representation where intersections are nodes and roads are edges. It uses an event-driven approach to manage vehicles movement and traffic signals.
+### 🔥 Key Features
+*   **Custom Data Structures from Scratch:** Implemented LinkedList, Queue, PriorityQueue, and Graph without using STL to ensure optimal performance.
+*   **Graph-Based City Model:** Models intersections as nodes and roads as weighted edges.
+*   **Event-Driven Architecture:** Real-time simulation engine handling vehicle movement and traffic light logic.
 
-### Implemented Data Structures
-To meet project requirements, the following data structures were implemented from scratch without using STL:
-- Linked List
-- Queue
-- Priority Queue
-- Graph and Adjacency List
+### 🛠️ Tech Stack
+`C++` `Data Structures` `Graph Algorithms` `OOP` `Event-Driven Simulation`
 
-### Project Structure
-- main.cpp : Main file to run the simulation
-- input.txt : Input file for roads and vehicles
-- header_files/ : Contains all header files (.h)
-- scr_files/ : Contains all implementation files (.cpp)
+### 🚀 How to Run
+```bash
+# Clone the repo
+git clone https://github.com/hanin-abdelkarim/Smart-City-Traffic-Management.git
 
-### How to Run
-1. Compile using g++:
-   g++ main.cpp scr_files/*.cpp -I header_files -o main
-2. Run:
-   ./main
+# Compile
+g++ main.cpp scr_files/*.cpp -I header_files -o traffic_sim
 
-### Team Members
-Team 36 - Data Structures Project - 2026
+# Run
+./traffic_sim
